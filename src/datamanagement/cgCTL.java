@@ -1,3 +1,6 @@
+/**
+ * Class Grade Control GUI class
+ */
 package datamanagement;
 
 public class cgCTL {
