@@ -7,14 +7,14 @@ import java.util.*;
 import java.io.*;
 
 public class AppProperties {
-	private static AppProperties self = null;
+	private static AppProperties self = null; //assign null to self
 	private Properties properties;
 
 	public static AppProperties getInstance() {
 		if (self == null) {
-			self = new AppProperties();
+			self = new AppProperties();// assign new AppProperties to self
 		}
-		return self;
+		return self;// returns self
 	}
 
 	private AppProperties() {
